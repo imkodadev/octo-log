@@ -1,11 +1,11 @@
 {
   "name": "node-octo-log",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An easy to use colorful logger",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +16,7 @@
     "logger",
     "octo-log"
   ],
-  "author": "imkodadev",
+  "author": "imkodadev <koda@brimemedia.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/imkodadev/octo-log/issues"
