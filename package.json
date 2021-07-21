@@ -2,8 +2,8 @@
   "name": "node-octo-log",
   "version": "0.1.2",
   "description": "An easy to use colorful logger",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
